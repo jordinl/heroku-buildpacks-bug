@@ -37,7 +37,7 @@ pack build heroku-buildpacks-bug --builder heroku/buildpacks:20 -b heroku/nodejs
 #### When WEB_CONCURRENCY is not set, it returns a value
 ```bash
 docker run --rm --entrypoint launcher heroku-buildpacks-bug sh -c 'echo $WEB_CONCURRENCY'
-1
+#=> 1
 ```
 
 #### When WEB_CONCURRENCY is set, it returns wrong value
