@@ -1,0 +1,10 @@
+{
+  "name": "heroku-buildpacks-bug",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "echo 1"
+  }
+}
